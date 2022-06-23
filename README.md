@@ -9,4 +9,4 @@ Genome Data.R contains rRNA data from:
 
 Ababneh, F., Jermiin, L. S., Ma, C. and Robinson, J. (2006). Matched-pairs tests of homogeneity with applications to homologous nucleotid sequences. Bioinormatics 22, 1225-1231.
 
-All the published code is property of the author.
+That work is licensed under Creative Commons.

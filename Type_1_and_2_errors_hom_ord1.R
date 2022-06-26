@@ -5,9 +5,8 @@ library("Rcpp")
 library("Matrix")
 library("seqinr")
 
-set.seed(100)
 
-#Power with Equal weights
+#Power without prior info
 power1<-matrix(data = c(0,0,0,0,
                         0,0,0,0,
                         0,0,0,0,
@@ -184,7 +183,7 @@ for (c in c(0,1/10,1/50,1/100)) {
 
 
 
-#Power with Larger weights
+#Power with prior info 1
 power2<-matrix(data = c(0,0,0,0,
                         0,0,0,0,
                         0,0,0,0,
@@ -360,14 +359,7 @@ for (c in c(0,1/10,1/50,1/100)) {
 
 
 
-
-
-
-
-
-
-
-#Power with Modified weights
+#Power with prior info 2
 power3<-matrix(data = c(0,0,0,0,
                         0,0,0,0,
                         0,0,0,0,
@@ -601,22 +593,7 @@ for (c in c(0,1/10,1/50,1/100)) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Power with Larger weights
+#Ch-Squared power
 power.chi<-matrix(data = c(0,0,0,0,
                            0,0,0,0,
                            0,0,0,0,
@@ -705,7 +682,7 @@ for (c in c(0,1/10,1/50,1/100)) {
 
 
 
-#Power with Larger weights
+#LRT power
 power.lrt<-matrix(data = c(0,0,0,0,
                            0,0,0,0,
                            0,0,0,0,

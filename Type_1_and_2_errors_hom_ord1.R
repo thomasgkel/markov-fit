@@ -1,9 +1,7 @@
 library("matrixcalc")
-library("rmutil")
 library("markovchain")
 library("Rcpp")
 library("Matrix")
-library("seqinr")
 
 
 #Power without prior info

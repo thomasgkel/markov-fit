@@ -5,18 +5,16 @@ library("Matrix")
 
 
 #Power without prior info
-power1<-matrix(data = c(0,0,0,0,
+power1 <- matrix(data = c(0,0,0,0,
                         0,0,0,0,
                         0,0,0,0,
                         0,0,0,0,
-                        0,0,0,0),byrow = FALSE, nrow = 5, dimnames = list(c("100","500","1000","5000","10000"), c("0","1/10","1/50","1/100")))
+                        0,0,0,0), byrow = FALSE, nrow = 5, dimnames = list(c("100","500","1000","5000","10000"), c("0","1/10","1/50","1/100")))
 for (c in c(0,1/10,1/50,1/100)) {
   powerv <- c()
   for (n in c(100,500,1000,5000,10000)) {
     
     sample_size <- n
-    
-    c
     
     States <- c("1", "2", "3")
     
